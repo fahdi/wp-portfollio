@@ -23,5 +23,5 @@ if ( version_compare( PHP_VERSION, '5.3.7', '<' ) ) {
 } else {
 	include_once __DIR__ . '/autoload.php';
 
-	call_user_func( [ 'Bookly\Lib\Boot', 'up' ] );
+	call_user_func( [ 'Portfollio\Lib\Boot', 'up' ] );
 }
